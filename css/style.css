@@ -1,0 +1,397 @@
+
+
+a {
+   color: #09E;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+ul{
+   text-align: justify;
+   list-style-type:none;
+}
+
+.content {
+   width: 90%;
+   border: 1px solid #BBC;
+   background: #FEFEFE;
+   text-align: center;
+   margin: 8px auto;
+   
+}
+
+.content h3{
+   text-align:left;
+   background: #EFEFEF;
+   margin: 0;
+   padding: 8px;
+   border-bottom: 1px solid #DEDEDE;
+}
+
+.ccontent p {
+    padding: 10px;
+    margin: 0;
+}
+
+aside {
+    display: inline-block;
+    background: #FEFEFE;
+    border: 1px solid #BBC;
+    vertical-align: top;
+    text-align: center;
+    margin: 16px 8px 8px 8px;
+    width: 20%;
+}
+
+aside a {
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    border-top: 2px solid #EFEFEF;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+aside h2 {
+    background: #EFEFEF;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: -1px;
+}
+
+body {
+    background: #DEDEDE;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11pt;
+    color: #111;
+    padding: 0;
+    margin: 0;
+}
+
+header { 
+    background: #D22;
+    border-bottom: 8px solid #B00;
+}
+
+header h1 {
+    font-size: 48pt;
+    font-family: 'Kelly Slab', sans-serif;
+    display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+
+header h2 {
+   font-size: 24pt;
+   color:#EEE;
+   display: inline-block;
+font-family: 'Kelly Slab', sans-serif;
+   margin: 0;
+   padding:0;
+}
+
+#title {
+   min-height: 100%;
+   width:85%;
+   display:inline-block;
+   margin: 0 auto;
+}
+
+
+header img {
+    width: 5%;
+    vertical-align: top;
+    padding: 0 8px 8px 8px;
+}
+
+h1 {
+    color: #EEE;
+    margin: 0;
+    padding: 8px;
+    font-size: 48pt;
+    text-shadow: 1px 1px #D11, 2px 2px #D11, 3px 3px #D11;
+}
+
+nav {
+    background: #333;
+    border-bottom: 5px solid #222;
+    padding: 8px 0 8px 0;
+}
+
+nav a {
+    padding: 8px;
+    color: #EEE;
+}
+
+p {
+    text-align: justify;
+    padding: 8px;
+}
+
+#container {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#hero-unit {
+    display: inline-block;
+    width: 70%;
+    border: 1px solid #BBC;
+    margin-top: 16px;
+       background: #FEFEFE;
+    /*background: url('http://lorempixel.com/1440/900/technics/') #FEFEFE; */
+    color: #333;
+    text-shadow: 1px 1px #EDEDED;
+}
+
+#hero-unit h2 {
+   font-size: 32pt;
+    padding: 8px;
+    margin: 0;
+    background: #000;
+    background: rgba(0,0,0,0.75);
+    border-bottom: 2px solid #B00;
+    color: #EEE;
+    font-family: 'Noticia Text', sans-serif;
+}
+
+#hero-unit h3{
+   text-align:justify;
+   background: #EFEFEF;
+   margin: 0;
+   padding: 8px;
+   border-bottom: 1px solid #DEDEDE;
+}
+
+.index h2 {
+   font-size: 72pt;
+}
+
+
+.button {
+    background: #EEE;
+    border: 1px solid #DDD;
+    padding: 8px;
+    margin: 8px;
+    display: block;
+    width: 25%;
+    float: right;
+    clear: both;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #DDD;
+    border: 1px solid #CCC;
+}
+.grid-box {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    background: #FEFEFE;
+    border: 1px solid #BBC;
+    margin: 16px;
+}
+
+.grid-box h2 {
+    background: #EFEFEF;
+    margin: 0;
+    padding: 8px;
+}
+
+.grid-box p {
+    padding: 32px;
+    margin: 0;
+}
+
+.top {
+    border-top: none;
+}
+
+.icons {
+    border-top: none;
+    display: inline-block;
+    width: auto;
+}
+
+.newLine {
+    display:block;
+}
+
+footer {
+    color: #EEE;
+    background: #333;
+    border-top: 5px solid #222;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Linked pages*/
+
+#main {
+   display: inline-block;
+   vertical-align:top;
+   background: #FEFEFE;
+    width: 70%;
+    border: 1px solid #BBC;
+    margin-top: 16px;
+}
+
+#main h2{
+   font-size:22pt;
+   padding: 10px;
+    margin: 0;    
+   text-align: justify;
+    background: #000;
+    background: rgba(0,0,0,0.75);
+    border-bottom: 2px solid #B00;
+    color: #EEE;
+    font-family: 'Noticia Text', sans-serif;
+}
+
+#main h3 {
+   background: #EFEFEF;
+   margin: 0;
+    padding: 8px;
+}
+
+#main p{
+   padding: 10px;
+   margin: 0;  
+}
+
+
+.content {    
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    background: #FEFEFE;
+    border: 1px solid #BBC;
+    margin: 16px;
+}
+
+.content h2 {
+    background: #EFEFEF;
+    margin: 0;
+    padding: 8px;
+}
+
+.content p {
+    padding: 10px;
+    margin: 0;
+}
+
+/*I'm starting on making the page responsive so 
+everything maintains poistion and scales 
+down accordingly- Muhammad*/
+
+@media screen and (max-width: 1024px) {
+
+header h1 {
+   font-size: 38pt;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    
+    aside {
+        display: inline-block;
+        background: #FEFEFE;
+        border: 1px solid #BBC;
+        vertical-align: top;
+        text-align: center;
+        margin: 16px 8px 8px 8px;
+        width: 25%;
+    }
+    
+    header h1 {
+        font-size: 28pt;
+    }
+    
+    header h2 {
+        font-size: 20pt;
+    }
+    
+    #hero-unit h2 {
+        font-size: 48pt;
+        padding: 0;
+        margin: 0;
+        background: #000;
+        background: rgba(0,0,0,0.75);
+        border-bottom: 2px solid #B00;
+        color: #EEE;
+        font-family: 'Noticia Text', sans-serif;
+    }
+    
+    .grid-box {
+        width: 40%;
+        display: inline-block;
+        background: #FEFEFE;
+        border: 1px solid #BBC;
+        margin: 16px;
+    }
+   
+
+}
+
+@media screen and (max-width: 480px) {
+   /*To Do: Subtract Padding/Margins*/
+   nav {
+       text-align: center;
+       margin: 0 auto;
+   }
+   nav a {
+       display:block;
+       text-align: center;
+       margin: 0 auto;
+   }
+   aside {
+		display: block;
+		min-width: 100%;
+	}
+	
+	header h1{
+		font-size:18px;
+	}
+	
+	header h2{
+		font-size:14px;
+	}
+
+
+    #container {
+        display: block;
+        min-width: 100%;
+    }
+    #hero-unit {
+        display: block;
+        min-width: 100%;
+    }
+    .grid-box {
+        display: block;
+        min-width: 100%;
+    }
+    .content {    
+        width: 90%;
+        min-width:300px;
+    }
+
+}
