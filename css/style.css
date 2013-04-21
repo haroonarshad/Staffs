@@ -173,7 +173,6 @@ p {
    font-size: 72pt;
 }
 
-
 .button {
     background: #EEE;
     border: 1px solid #DDD;
@@ -199,7 +198,7 @@ p {
     margin: 16px;
 }
 
-.grid-box h2 {
+.grid-box h3 {
     background: #EFEFEF;
     margin: 0;
     padding: 8px;
@@ -292,16 +291,30 @@ footer p {
     margin: 0;
 }
 
-/*I'm starting on making the page responsive so 
-everything maintains poistion and scales 
-down accordingly- Muhammad*/
-
 @media screen and (max-width: 1024px) {
-
-header h1 {
-   font-size: 38pt;
-}
-
+  /* 
+  Tablet Changes 
+  ==============
+  "A touch-enabled Desktop experience"
+  - Container uses full width of the display's width
+  - Hero-Unit uses more width
+  - Padding on links such as Buttons have doubled for easier key presses
+  */
+  header h1 {
+     font-size: 42pt;
+  }
+  #container {
+    min-width: 100%;
+  }
+  #hero-unit {
+    min-width: 75%;
+  }
+  .button {
+    padding: 16px;
+  }
+  .grid-box h3 {
+    padding: 16px;
+  }
 }
 
 @media screen and (max-width: 800px) {
