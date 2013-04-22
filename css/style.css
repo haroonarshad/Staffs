@@ -1,8 +1,7 @@
-
-
 a {
-   color: #09E;
-text-decoration: none;
+  color: #09E;
+  text-decoration: none;
+  padding: 8px;
 }
 
 a:hover {
@@ -12,6 +11,10 @@ text-decoration: underline;
 ul{
    text-align: justify;
    list-style-type:none;
+}
+
+.block {
+  display: block;
 }
 
 .content {
@@ -29,11 +32,6 @@ ul{
    margin: 0;
    padding: 8px;
    border-bottom: 1px solid #DEDEDE;
-}
-
-.ccontent p {
-    padding: 10px;
-    margin: 0;
 }
 
 aside {
@@ -72,6 +70,10 @@ body {
     margin: 0;
 }
 
+form {
+  margin-top: 16px;
+}
+
 header { 
     background: #D22;
     border-bottom: 8px solid #B00;
@@ -101,7 +103,6 @@ font-family: 'Kelly Slab', sans-serif;
    margin: 0 auto;
 }
 
-
 header img {
     width: 5%;
     vertical-align: top;
@@ -114,6 +115,14 @@ h1 {
     padding: 8px;
     font-size: 48pt;
     text-shadow: 1px 1px #D11, 2px 2px #D11, 3px 3px #D11;
+}
+
+input {
+  padding: 8px;
+  margin-top: 8px;
+  display: block;
+  margin: 8px auto;
+  width: 25%;
 }
 
 nav {
@@ -130,6 +139,22 @@ nav a {
 p {
     text-align: justify;
     padding: 8px;
+}
+
+textarea {
+  display: block;
+  width: 25%;
+  max-width: 25%;
+  margin: 8px auto;
+  padding: 8px;
+  border: 1px solid #AAA;
+}
+
+select {
+  width: 25%;
+  margin: 8px auto;
+  padding: 8px;
+  display: block;
 }
 
 #container {
@@ -189,6 +214,7 @@ p {
     background: #DDD;
     border: 1px solid #CCC;
 }
+
 .grid-box {
     width: 45%;
     display: inline-block;
@@ -227,8 +253,9 @@ footer {
     color: #EEE;
     background: #333;
     border-top: 5px solid #222;
-    padding: 40px;
+    padding: 40px 0 40px 0;
     margin-top: 40px;
+    min-width: 100%;
 }
 
 footer p {
